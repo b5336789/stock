@@ -1,0 +1,12 @@
+id | 標的stock_name | 時間record_time | 收盤前隱藏買賣五檔before_close_hide_five | 這格不知道做啥用Column_D | 
+有無交易成功trade_is_success | 有無漲跌停has_price_limits | 目前價格cur_price | 累積交易量total_volume | 買方的最佳檔數buy_best_num |
+ 有無漲停buy_has_price_limits | 買一價buy_price_1 | 買一量buy_volume_1 |買二價 | 買二量 | ... | 買五量 | 買五價 | 
+賣方的最佳檔數sell_best_num | 有無跌停 | 賣一價sell_price_1 | 賣一量sell_volume_1 | ... | 賣五價 | 賣五量 | 天數record_date | AA
+
+第三行的 有標T就是指說有隱藏買賣五檔
+
+四空白
+
+第六行那邊 記R是漲停 記F是跌停
+
+你的買/賣的最佳一檔的價錢是不是有到漲停或跌停的價位
